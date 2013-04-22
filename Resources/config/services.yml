@@ -2,7 +2,7 @@ parameters:
     success_rss_cache_enabled: %success_rss.cache_enabled%
     success_rss_cache_dir: %success_rss.cache_dir%
     success_rss_cache_duration: %success_rss.cache_duration%
-    success_rss_factory: Application\Success\RssBundle\Factory\RssFactory
+    success_rss_factory: Success\RssBundle\Factory\RssFactory
 
 services:
     success_rss:
