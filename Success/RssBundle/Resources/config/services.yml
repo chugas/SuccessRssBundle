@@ -1,0 +1,15 @@
+parameters:
+    success_rss_cache_enabled: %success_rss.cache_enabled%
+    success_rss_cache_dir: %success_rss.cache_dir%
+    success_rss_cache_duration: %success_rss.cache_duration%
+    success_rss_factory: Application\Success\RssBundle\Factory\RssFactory
+
+services:
+    success_rss:
+        class:          SimplePie_Core
+        factory_class:  %success_rss_factory%
+        factory_method: create
+        arguments:
+            - %success_rss_cache_enabled%
+            - %success_rss_cache_dir%
+            - %success_rss_cache_duration%

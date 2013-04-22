@@ -1,0 +1,23 @@
+{
+  "name": "success/rss-bundle",
+  "type": "symfony-bundle",
+  "description": "Integrates SimplePie into Symfony2",
+  "keywords": ["SimplePie", "Symfony Bundle", "RSS", "ATOM", "Feed"],
+  "homepage": "https://github.com/chugas",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gaston Caldeiro",
+      "email": "successlabsuy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": ">=2.1,<2.3-dev",
+    "simplepie/simplepie": "*"
+  },
+  "autoload": {
+    "psr-0": { "Success\\RssBundle": "" }
+  },
+  "target-dir": "Success/RssBundle"
+}
