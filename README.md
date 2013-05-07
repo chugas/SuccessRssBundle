@@ -36,7 +36,7 @@ Configuration
 =============
 
     # app/config.yml
-    success_simple_pie:
+    success_rss:
         cache_enabled: false
         cache_dir: %kernel.cache_dir%/rss
         cache_duration: 3600
